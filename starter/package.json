@@ -1,0 +1,21 @@
+{
+  "name": "sketch-explainer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render SketchExplainerDemo out/video.mp4",
+    "still": "remotion still SketchExplainerDemo out/still.jpg --frame=90"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.541",
+    "@remotion/fonts": "^4.0.541",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.541",
+    "roughjs": "^4.6.6",
+    "typescript": "^7.0.2"
+  }
+}

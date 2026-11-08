@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "audio": "vo.wav",
+    "style": "sketch-explainer-v1",
+    "reference": "How Jobs Actually Disappear — 60s, 1920x1080",
+    "note": "All times are absolute seconds in the voiceover. Scene components receive local time = absolute - scene.start."
+  },
+  "scenes": [
+    {
+      "id": "myth",
+      "type": "myth-bubble",
+      "start": 0.0,
+      "end": 6.2,
+      "copy": [
+        { "text": "a single dramatic moment", "zone": "caption", "at": 4.85, "dur": 0.95 }
+      ],
+      "events": [
+        { "at": 0.0, "action": "draw-character" },
+        { "at": 0.35, "action": "draw-cloud" },
+        { "at": 1.45, "action": "draw-robot" },
+        { "at": 1.7, "action": "draw-worker" },
+        { "at": 2.7, "action": "worker-walks-away", "duration": 2.3 },
+        { "at": 4.15, "action": "pop-bang" }
+      ]
+    },
+    {
+      "id": "evidence",
+      "type": "evidence-strip",
+      "start": 6.2,
+      "end": 21.5,
+      "copy": [
+        { "text": "it does happen ✓", "zone": "top-right", "at": 16.6, "dur": 1.2 },
+        { "text": "not the usual way", "zone": "caption", "at": 18.2, "dur": 1.2 }
+      ],
+      "panels": [
+        { "id": "factory", "at": 7.4, "caption": "closed plant" },
+        { "id": "news", "at": 9.3, "caption": "10,000 layoffs" },
+        { "id": "robot", "at": 12.5, "caption": "robot + workers" }
+      ],
+      "events": [
+        { "at": 16.5, "action": "pull-back-to-strip" },
+        { "at": 18.0, "action": "dim-strip" }
+      ]
+    },
+    {
+      "id": "quietly",
+      "type": "comparison",
+      "start": 21.5,
+      "end": 28.7,
+      "title": "quietly",
+      "copy": [
+        { "text": "which day?", "zone": "bottom-right", "at": 27.2, "dur": 1.1 }
+      ],
+      "events": [
+        { "at": 0.4, "action": "draw-full-building" },
+        { "at": 0.4, "action": "draw-empty-grid" },
+        { "at": 3.0, "action": "hand-enters", "duration": 0.6 },
+        { "at": 4.6, "action": "pop-question-mark" }
+      ]
+    },
+    {
+      "id": "iceberg",
+      "type": "diagram",
+      "start": 28.7,
+      "end": 38.8,
+      "labels": [
+        { "text": "this quiet version", "at": 30.2, "arrow": true },
+        { "text": "worry about this one", "at": 32.8, "arrow": true },
+        { "text": "so easy to miss", "at": 36.2, "color": "gray" }
+      ],
+      "events": [
+        { "at": 0.0, "action": "draw-iceberg" },
+        { "at": 1.2, "action": "draw-waterline" },
+        { "at": 2.0, "action": "ghost-people-in" }
+      ]
+    },
+    {
+      "id": "definition",
+      "type": "definition",
+      "start": 38.8,
+      "end": 46.0,
+      "copy": [
+        { "text": "a job", "zone": "top-center", "at": 39.5, "dur": 0.7 },
+        { "text": "a bundle of tasks", "zone": "bottom-center", "at": 42.8, "dur": 1.3, "color": "green" }
+      ],
+      "events": [
+        { "at": 0.2, "action": "draw-box", "label": "JOB" },
+        { "at": 2.4, "action": "unbox" },
+        { "at": 2.9, "action": "draw-bundle" },
+        { "at": 3.6, "action": "pop-task-pills" },
+        { "at": 4.4, "action": "draw-bow" }
+      ]
+    },
+    {
+      "id": "bank",
+      "type": "role-tasks",
+      "start": 46.0,
+      "end": 53.3,
+      "title": "a bank teller",
+      "props": { "mirror": false, "shirt": "purple", "artifact": "desk + register" },
+      "labels": [
+        { "text": "counts cash", "at": 46.9 },
+        { "text": "processes deposits", "at": 48.3 },
+        { "text": "answers questions", "at": 49.7 },
+        { "text": "spots fraud", "at": 51.0 },
+        { "text": "sells products", "at": 52.2 }
+      ]
+    },
+    {
+      "id": "paralegal",
+      "type": "role-tasks",
+      "start": 53.3,
+      "end": 60.0,
+      "title": "a paralegal",
+      "props": { "mirror": true, "shirt": "brown", "artifact": "table + documents" },
+      "labels": [
+        { "text": "searches documents", "at": 54.9 },
+        { "text": "drafts letters", "at": 55.9 },
+        { "text": "organizes files", "at": 57.0 },
+        { "text": "checks citations", "at": 58.1 }
+      ]
+    }
+  ]
+}

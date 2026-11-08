@@ -1,0 +1,13 @@
+[
+  { "word": "a", "start": 4.15, "end": 4.22 },
+  { "word": "single", "start": 4.22, "end": 4.51 },
+  { "word": "dramatic", "start": 4.51, "end": 4.93 },
+  { "word": "moment", "start": 4.93, "end": 5.42 },
+  { "word": "a", "start": 6.28, "end": 6.34 },
+  { "word": "bank", "start": 6.34, "end": 6.62 },
+  { "word": "teller", "start": 6.62, "end": 7.08 },
+  { "word": "counts", "start": 7.52, "end": 7.83 },
+  { "word": "cash", "start": 7.83, "end": 8.11 },
+  { "word": "processes", "start": 8.29, "end": 8.74 },
+  { "word": "deposits", "start": 8.74, "end": 9.18 }
+]
